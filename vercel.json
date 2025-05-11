@@ -4,15 +4,5 @@
       "NODE_VERSION": "20",
       "YARN_VERSION": "1.22.19"
     }
-  },
-  "commands": {
-    "install": "yarn install --frozen-lockfile",
-    "build": "yarn workspaces foreach run build"
-  },
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/apps/dotcom/client/$1"
-    }
-  ]
+  }
 }
