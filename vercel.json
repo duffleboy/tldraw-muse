@@ -5,7 +5,6 @@
       "YARN_VERSION": "1.22.19"
     }
   },
-  "workspace": true,
   "commands": {
     "install": "yarn install --frozen-lockfile",
     "build": "yarn workspaces foreach run build"
