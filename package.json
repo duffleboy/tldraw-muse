@@ -42,7 +42,7 @@
     "dev-docs": "LAZYREPO_PRETTY_OUTPUT=0 lazy run dev --filter='apps/docs'",
     "dev-huppy": "LAZYREPO_PRETTY_OUTPUT=0 lazy run dev --filter 'internal/huppy'",
     "dev-tools": "yarn tsx internal/scripts/get-pr-numbers.ts && lazy run dev --filter='internal/dev-tools'",
-    "build": "yarn workspaces foreach run build",
+    "build": "yarn workspaces run build",
     "build-app": "lazy run build --filter 'apps/dotcom/client'",
     "build-docs": "lazy run build --filter 'apps/docs'",
     "build-types": "lazy inherit",
