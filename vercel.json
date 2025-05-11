@@ -1,0 +1,13 @@
+{
+  "build": {
+    "env": {
+      "NODE_VERSION": "20",
+      "YARN_VERSION": "1.22.19"
+    }
+  },
+  "workspace": true,
+  "commands": {
+    "install": "yarn install --frozen-lockfile",
+    "build": "yarn build"
+  }
+}
